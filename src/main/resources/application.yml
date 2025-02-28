@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-post
+
+  datasource:
+    url: jdbc:mysql://spring-study-db.cja02ssso4xq.ap-northeast-2.rds.amazonaws.com:13306/study?serverTimezone=Asia/Seoul
+    username: admin
+    password: unldflppak
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG              # SQL ?? ??
+    org.hibernate.type.descriptor.sql: TRACE  # ?? ???? ? ??
