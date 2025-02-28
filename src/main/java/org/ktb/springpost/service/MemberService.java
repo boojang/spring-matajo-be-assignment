@@ -79,6 +79,7 @@ public class MemberService {
         return memberJpaRepository.findByEmailAndPassword(email, bCryptPasswordEncoder.encode(password));
         // MemberRepository 사용
 //         return memberRepository.findByEmailAndPassword(email, bCryptPasswordEncoder.encode(password));
+//        return memberRepository.login(email, bCryptPasswordEncoder.encode(password));
     }
 
 
