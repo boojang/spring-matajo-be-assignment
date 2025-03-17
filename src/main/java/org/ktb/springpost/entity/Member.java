@@ -23,6 +23,7 @@ public class Member {
     private int age;
 
     // 멤버 업데이트 메소드
+    // 엔티티 필드 업데이트
     public void updateMember(MemberRequestDto memberRequestDto) {
         if (memberRequestDto.getUsername() != null) this.username = memberRequestDto.getUsername();
         if (memberRequestDto.getEmail() != null) this.email = memberRequestDto.getEmail();

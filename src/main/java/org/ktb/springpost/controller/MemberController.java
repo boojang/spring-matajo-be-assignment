@@ -3,7 +3,7 @@ package org.ktb.springpost.controller;
 import org.ktb.springpost.dto.MemberRequestDto;
 import org.ktb.springpost.entity.Member;
 import org.ktb.springpost.service.MemberService;
-import org.springframework.beans.factory.annotation.Autowired;
+    import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
